@@ -48,7 +48,7 @@ printf '\n\033[0;34m%s\033[0m\n\n' "Downloading WordPress..."
 
 
 if [ $spanish = Y ] || [ $spanish = y ]; then
-	_install_wordpress "http://es.wordpress.org/wordpress-3.6.1-es_ES.tar.gz"
+	_install_wordpress "http://es.wordpress.org/wordpress-3.8-es_ES.tar.gz"
 else
 	_install_wordpress "http://wordpress.org/latest.tar.gz"
 fi
